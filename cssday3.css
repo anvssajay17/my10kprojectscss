@@ -1,0 +1,33 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    background-color: rgb(245, 245, 245);
+
+}
+
+.cards{
+    max-width: 1600px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(200px,1fr));
+    gap: 2rem;
+}
+
+.card{
+    text-align: center;
+    padding: 10px;
+    margin: 5px;
+     background-color: black;
+    
+}
+p{
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 17px;
+    color: rgb(18, 1, 1);
+}
+img{
+    width: 80%;
+    height: 400px;
+}
