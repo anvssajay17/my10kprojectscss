@@ -1,9 +1,8 @@
 body{
     padding: 0;
     margin: 0;
-    display: flex;
-    justify-content: center;
-    padding-top:105px;
+   
+    
     
 }
 .container{
@@ -13,14 +12,13 @@ body{
     overflow: hidden;
     overflow-y: scroll;
     scroll-behavior: smooth;
-    
     background-image: url('../images/pexels-pixabay-355872.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     border-radius: 4px;
     scrollbar-width: none;
-    
+        
     
 }
 .header{
@@ -30,15 +28,18 @@ body{
     display: flex;
     justify-content: space-between;
     position: fixed;
-    top:50px;
-    right:199px;
-    left: 199px;
+    top:0px;
+    left: 0px;
+    width: 250px;
+    z-index: 100;
     border-radius: 4px;
+    background-color: white;
 }
 .dp-section{
     width: 40px;
     margin-right:5px;
 }
+
 
 .mamita{
     width: 100%;
