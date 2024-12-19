@@ -1,0 +1,76 @@
+.date{
+    width:90px;
+    background-color: rgb(224, 219, 219);
+    border-radius: 10px;
+    padding: 3px;
+    font-size: 12px;
+    margin-left:80px;
+    position: sticky;
+    top: 16px;
+    z-index: 1;
+    
+   
+}
+.date1{
+    width:90px;
+    background-color: rgb(224, 219, 219);
+    border-radius: 10px;
+    padding: 3px;
+    font-size: 12px;
+    margin-left:80px;
+    position: fixed;
+    top: 120px;
+}
+.out p{
+    background-color: rgb(182, 238, 182);
+    padding: 5px;
+    border-radius: 2px;
+    max-width: 150px;
+    
+   
+    
+}
+.out{
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 4px;
+    
+    
+}
+  .day{
+    width:90px;
+    background-color: rgb(224, 219, 219);
+    border-radius: 10px;
+    padding: 3px;
+    font-size: 12px;
+    margin-left:80px;
+    position: sticky;
+    top: 16px;
+    z-index: 1;
+    text-align: center;
+    
+  }
+    
+.in p{
+    background-color: white;
+    padding:5px;
+   border-radius:5px;
+   max-width: 150px;
+    
+    
+    
+    
+}
+.in{
+    display: flex;
+    justify-content: start;
+    padding-left: 4px;
+}
+.block{
+    background-color: rgb(214, 209, 209);
+    font-size: 12px;
+    width: 150px;
+    margin-left: 45px;
+    text-align: center;
+    border-radius: 5px;
+}
