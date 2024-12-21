@@ -49,14 +49,8 @@
     padding: 3px;
     font-size: 12px;
     margin-left:95px;
-    position: sticky;
-<<<<<<< HEAD
-    top: 1px;
+     top: 1px;
     z-index: 2;
-=======
-    top: 0px;
-    z-index: 1;
->>>>>>> f03d228aab4b8593cad3ce598059fdc9daea0993
     text-align: center;
     
   }
