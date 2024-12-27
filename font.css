@@ -1,0 +1,57 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f4f4f4;
+  }
+
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 16px;
+    padding: 20px;
+  }
+
+  .grid div {
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    padding: 20px;
+    text-align: center;
+    font-size: 16px;
+    transition: transform 0.3s ease, font-family 0.3s ease;
+    cursor: pointer;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+
+  .grid div:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  }
+
+  /* Define font families for each div on hover */
+  .grid .roboto:hover { font-family: 'Roboto', sans-serif; }
+  .grid .open-sans:hover { font-family: 'Open Sans', sans-serif; }
+  .grid .lato:hover { font-family: 'Lato', sans-serif; }
+  .grid .montserrat:hover { font-family: 'Montserrat', sans-serif; }
+  .grid .poppins:hover { font-family: 'Poppins', sans-serif; }
+  .grid .oswald:hover { font-family: 'Oswald', sans-serif; }
+  .grid .raleway:hover { font-family: 'Raleway', sans-serif; }
+  .grid .playfair:hover { font-family: 'Playfair Display', serif; }
+  .grid .merriweather:hover { font-family: 'Merriweather', serif; }
+  .grid .nunito:hover { font-family: 'Nunito', sans-serif; }
+  .grid .quicksand:hover { font-family: 'Quicksand', sans-serif; }
+  .grid .caveat:hover { font-family: 'Caveat', cursive; }
+  .grid .abril-fatface:hover { font-family: 'Abril Fatface', cursive; }
+  .grid .baskerville:hover { font-family: 'Libre Baskerville', serif; }
+  .grid .dancing-script:hover { font-family: 'Dancing Script', cursive; }
+
+  /* Responsive for mobile */
+  @media (max-width: 768px) {
+    .grid {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
